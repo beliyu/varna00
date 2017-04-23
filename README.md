@@ -13,6 +13,6 @@ This project was generated with **[angular-cli](https://github.com/angular/angul
 In order to explore the project locally:
 
 1. clone this git repository ,
-2. change into the project directory `cd d3-ng2-demo`, and
+2. change into the project directory `cd varna00`, and
 3. run `npm install`.
 
