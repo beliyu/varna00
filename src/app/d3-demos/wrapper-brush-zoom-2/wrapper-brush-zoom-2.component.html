@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-lg-12">
+      <h3 class="text-primary">Brush & Zoom II</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-lg-7  col-md-7  col-sm-12">
+      <p class="text-info">
+        Demonstrate how to:
+      </p>
+      <ul class="text-info">
+        <li>
+          input data and dimension in D3 component
+        </li>
+        <li>
+          use D3 version 4 in TypeScript to draw a scatter plot with brush and zoom/pan event handling.
+        </li>
+      </ul>
+      <button class="btn " (click)="dataSet()">New DataSet </button>
+      <button class="btn " (click)="dimSet(600, 400)">Dim 600 x 400</button>
+      <button class="btn " (click)="dimSet(900, 600)">Dim 900 x 600</button>
+    </div>
+    <div class="col col-lg-4 col-md-4 col-sm-12">
+      <h4 class="text-primary">Reference</h4>
+      <p class="text-justify">
+        This example is based on <b>Mike Bostock's Brush & Zoom II Block</b>. The original source with its supporting explanation
+        can be found by following the link below.
+      </p>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col col-lg-12">
+      <div class="visualization">
+        <app-brush-zoom-2 [width]="widthV" [height]="heightV" [data]="data"></app-brush-zoom-2>
+      </div>
+    </div>
+  </div>
+</div>

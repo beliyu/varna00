@@ -1,0 +1,60 @@
+{
+  "name": "d3-ng2-demo",
+  "version": "0.0.5",
+  "description": "An Angular app for UpWork client.",
+  "keywords": [
+    "D3",
+    "Angular"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "beliYu",
+    "url": "https://github.com/beliyu"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beliyu/varna00"
+  },
+  "dependencies": {
+    "@angular/common": "4.0.2",
+    "@angular/compiler": "4.0.2",
+    "@angular/core": "4.0.2",
+    "@angular/forms": "4.0.2",
+    "@angular/http": "4.0.2",
+    "@angular/platform-browser": "4.0.2",
+    "@angular/platform-browser-dynamic": "4.0.2",
+    "@angular/router": "4.0.2",
+    "bootstrap": "3.3.7",
+    "core-js": "^2.4.1",
+    "d3-ng2-service": "1.9.0",
+    "rxjs": "5.3.0",
+    "zone.js": "0.8.5"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.0.0",
+    "@angular/compiler-cli": "4.0.2",
+    "@types/jasmine": "2.5.38",
+    "@types/node": "~6.0.60",
+    "codelyzer": "2.0.1",
+    "jasmine-core": "2.5.2",
+    "jasmine-spec-reporter": "3.2.0",
+    "karma": "1.4.1",
+    "karma-chrome-launcher": "2.0.0",
+    "karma-cli": "1.0.1",
+    "karma-jasmine": "1.1.0",
+    "karma-jasmine-html-reporter": "0.2.2",
+    "karma-coverage-istanbul-reporter": "0.2.3",
+    "protractor": "5.1.1",
+    "ts-node": "2.0.0",
+    "tslint": "4.5.1",
+    "typescript": "2.2.2"
+  }
+}
